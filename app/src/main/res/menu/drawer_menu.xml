@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contactus"
+            android:title="Contact us" />
+
+        <item
+            android:id="@+id/nav_link"
+            android:icon="@drawable/ic_link"
+            android:title="Our Website" />
+
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/ic_facebook"
+            android:title="Facebook" />
+
+        <item
+            android:id="@+id/nav_instagram"
+            android:icon="@drawable/ic_instagram"
+            android:title="Instagram" />
+    </group>
+
+    <group
+        android:id="@+id/nav_category_group"
+        android:checkableBehavior="single">
+
+        <!-- Categories item -->
+        <item
+            android:id="@+id/nav_category"
+            android:title="Categories"
+            app:showAsAction="ifRoom" />
+    </group>
+
+</menu>
